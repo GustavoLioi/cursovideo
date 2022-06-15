@@ -7,3 +7,21 @@ background-color: rgba(24, 2, 2, 0.815);
 padding-left: 4px;
 margin: 0%;
 }
+.button{
+position: absolute;
+text-align: center;
+color: #fff;
+font-size: large;
+font-style: inherit;
+}
+
+.button {
+     border: radius 50px;
+     -webkit-border-radius:50 ;
+     -moz-border-radius:50 ;
+     -ms-border-radius:50 ;
+     -o-border-radius:50 ;
+     cursor: pointer;
+     transition:opacity 1s;
+}
+
