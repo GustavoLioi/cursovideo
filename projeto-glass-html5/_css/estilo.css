@@ -130,10 +130,36 @@ section#corpo{
 display: block;
 width: 600px;
 float: left;
+border-right: 1 px solid #606060;
 }
+
+table#tabelaspec{
+border:  1px solid #606060;
+border-spacing: 0;
+margin-right: auto;
+margin-left:auto ;
+}
+table#tabelaspec td{
+border: 1px dashed solid #606060;
+padding: 10 px;
+text-align: right ;
+}
+
 aside#lateral {
 
 display: block;
 width: 400px;
 float:  right;
+}
+
+footer#rodape{
+clear: both;
+border-top: 1px solid #606060;
+}
+
+footer#ropape h{
+
+text-align: center;
+
+
 }
