@@ -140,10 +140,39 @@ margin-right: auto;
 margin-left:auto ;
 }
 table#tabelaspec td{
-border: 1px dashed solid #606060;
+border: 1px  solid #606060;
 padding: 10 px;
+text-align: center;
 text-align: right ;
 }
+table#tabelaspc td.ce{
+color: #ffffff;
+background-color: #606060;
+vertical-align: top;
+font-weight: bold;
+}
+
+table#tabelaspc td.cd{
+background-color: #cececece  
+
+;
+
+}
+
+table#tabelaspac caption{
+color: #88888888;
+font-size: 13pt;
+font-weight: bold;
+}
+table#tabelaspa caption span{
+display: block;
+float: right;
+color: #000000;
+font-size: 8pt;
+margin-top: 10px;
+
+}
+
 
 aside#lateral {
 
@@ -160,6 +189,18 @@ border-top: 1px solid #606060;
 footer#ropape h{
 
 text-align: center;
+}
+
+article#moticos_p h2{
+
+
+font-size: '12pt';
+color: #606060;
+color: 606060;
+background-color: #dddddddd;
+padding: 5 px 0px 5px  0px;
+margin: 10px opx 10 px o px;
+
 
 
 }
