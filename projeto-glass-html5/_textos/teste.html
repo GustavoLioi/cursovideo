@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-function acenderLampada(){
-    document.getElementById("luz").src="/projeto-glass-html5/_imagens/lampada-acesa.jpg";
+        var quabrada =false;
+function mudaLampada(tipo){
+
+    if(!quaebrada){
+
+    
+document.getElementById("luz").src= "/projeto-glass-html5/_imagens/" + tipo + ".jpg";
+if (tipo == 'lampada-quebrada'){
+    quabrada==true
+        }
+    } 
 }
 
-function apagaLampada(){
-    document.getElementById("luz").src="/projeto-glass-html5/_imagens/lampada-apagada.jpg";
-}
-
-function quebraLampada(){
-document.getElementById("luz"). src= "/projeto-glass-html5/_imagens/lampada-apagada.jpg";
-}
-    </script>
+</script>
     
 </head>
 <body>
 <h1>lampadas</h1>
 
-<img src="/projeto-glass-html5/_imagens/lampada-apagada.jpg" id="luz" onmousemove="acenderLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()" />
+<img id="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')" />
 
 
 </body>
